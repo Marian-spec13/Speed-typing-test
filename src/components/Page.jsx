@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import './page.css'
+import './Header'
+import Header from './Header';
+
 const Page = () => {
     useEffect(() => {
 
@@ -111,6 +114,7 @@ const Page = () => {
 
   return (
     <div>
+        <Header></Header>
     <div className="page">
         <div className="main-box">
         <input type="text" class="input-box"/>
